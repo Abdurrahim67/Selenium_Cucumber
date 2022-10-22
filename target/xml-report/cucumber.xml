@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.165">
+    <testcase classname="medunna login negative test" name="Negative login test" time="8.899">
+        <system-out>
+            <![CDATA[Given kullanici "medunna" sayfasina gider...................................passed
+When login olmak icin signin e tiklar.......................................passed
+And username icin "username" kullanici adini gonderir.......................passed
+And password icin "password" parolasini gonderir............................passed
+And signine tiklar..........................................................passed
+Then Authentication information not correct uyarisini dogrular..............passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
