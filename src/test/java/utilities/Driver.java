@@ -50,7 +50,7 @@ public class Driver {
     }
 
     public static void closeDriver(){
-        if (driver!=null){ // driver'a deger atanmissa
+        if (driver!=null){
             driver.close();
            driver=null;
         }
